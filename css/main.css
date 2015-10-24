@@ -7,16 +7,17 @@
 h1 {
 	font-family: "Lucida Console", "Monaco", monospace;
 	text-align: center;
+	color: #34495e
 }
 
 #calculator {
 	margin: 0 auto;
-	height: 480px;
-	width: 400px;
-	background-color: #999;
+	height: 475px;
+	width: 380px;
+	background-color: #2c3e50;
 	font-family: "Source Code Pro";
-	border: 3px solid #75B9B8;
-	border-radius: 15px 50px;
+	border: 1px solid #999;
+	border-radius: 10px;
 	box-shadow: 0px 0px 10px -5px rgba(82,80,82,0.89);
 }
 
@@ -24,10 +25,11 @@ h1 {
 	text-align: right;
 	height: 50px;
 	border: 1px solid #666;
-	margin: 30px 78px;
+	margin: 30px 60px;
 	background-color: #fff;
-	border-radius: 3px;
-	box-shadow: 0px 0px 20px -5px rgba(82,80,82,0.89);
+	border-radius: 4px;
+	overflow: hidden;
+	
 }
 
 #input p {
@@ -36,6 +38,7 @@ h1 {
 	padding-right: 15px;
 	letter-spacing: 3px;
 }
+
 
 table {
 	margin: 0 auto;
@@ -50,14 +53,14 @@ td {
 button {
 	width: 60px;
 	height: 50px;
-	border: 1px solid #666;
+	border: 1px solid #ecf0f1;
 	border-radius: 15px;
 	color: #fff;
 	font-size: 25px;
 	font-weight: 300;
-	box-shadow: 0px 0px 20px -5px rgba(82,80,82,0.89);
-	background: #b3b3b3;
-	background: linear-gradient(#b3b3b3, #8d8b8b);
+	background: #2c3e50;
+	box-shadow: inset 0px 0px 15px 2px rgba(38,52,66,0.6);
+	
 
 }
 
@@ -74,8 +77,7 @@ button.equal {
 }
 
 button:hover {
-	border: 1px solid #8ccccb;
-	
+	border: 1px solid #5fa7a7;	
 }
 
 button:focus {
@@ -83,6 +85,7 @@ button:focus {
 }
 
 button:active {
-	font-weight: 400;
-}
+	/*font-weight: 400;*/
+	border: 2px solid #5fa7a7;
+
 }
